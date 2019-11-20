@@ -5,7 +5,7 @@ pipeline {
    stages {
         stage('cloning git') {
             steps {
-                git 'git@github.com:johnmorrisQADeveloper/webapp.git'
+                git 'git@github.com:johnmorrisQADeveloper/webapitest.git'
             }
         }
         stage('install dependencies') {
