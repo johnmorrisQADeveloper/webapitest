@@ -22,8 +22,16 @@ Note: resources have relations. For example: posts have many comments, albums ha
 |    /PATCH        | 	/posts/1     |
 |    /DELETE       | 	/posts/1     |
 
+# Run on local
+```
+npm i
+npm t
+```
 
-
+# Run on docker
+```
 docker build -t "webapi:johnmorris" .
 docker run -it webapi:johnmorris /bin/bash
+npm t
+```
 
