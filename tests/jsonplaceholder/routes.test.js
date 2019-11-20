@@ -1,4 +1,4 @@
-const requestPromise = require('request-promise-native')
+import requestPromise from 'request-promise-native'
 
 describe('All HTTP methods are supported', () => {
   test('GET /Todos/1 should return expected object { userId, id, title, completed }', async () => {

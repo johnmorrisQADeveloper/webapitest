@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./src/index.js",
-    "test": "jest --colors --verbose",
+    "test": "jest --verbose",
     "lint": "./node_modules/.bin/eslint tests/*/*.js --fix"
   },
-  "type": "module",
+  "type": "",
   "keywords": [],
   "author": "",
   "license": "ISC",
