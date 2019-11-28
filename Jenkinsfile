@@ -1,11 +1,10 @@
 pipeline {
    agent any
-   tools {nodejs "node"}
 
    stages {
         stage('cloning git') {
             steps {
-                git 'git@github.com:johnmorrisQADeveloper/webapitest.git'
+                git 'https://github.com/johnmorrisQADeveloper/webapitest.git/'
             }
         }
         stage('install dependencies') {
