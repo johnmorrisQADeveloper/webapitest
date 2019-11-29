@@ -36,4 +36,4 @@ npm t
 ```
 
 # jenkins job
-http://3.8.237.84:8080/job/webapi/
+http://ec2-3-8-237-84.eu-west-2.compute.amazonaws.com:8080/job/webapi-functional-test/
